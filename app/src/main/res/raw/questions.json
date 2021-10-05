@@ -1,0 +1,89 @@
+[
+  {
+    "Question": "Are you an introvert or an extrovert?",
+    "LeftAnswer": "Introvert",
+    "RightAnswer": "Extrovert",
+    "LeftPoints": 20,
+    "RightPoints": 10
+  },
+
+  {
+    "Question": "Do you like warm or cold colors?",
+    "LeftAnswer": "Warm",
+    "RightAnswer": "Cold",
+    "LeftPoints": 10,
+    "RightPoints": 20
+  },
+
+  {
+    "Question": "Are you a night owl or a morning owl?\", \"Night Owl",
+    "LeftAnswer": "Night Owl",
+    "RightAnswer": "Morning Owl",
+    "LeftPoints": 40,
+    "RightPoints": 5
+  },
+
+  {
+    "Question": "Do you procrastinate your work?",
+    "LeftAnswer": "Yes",
+    "RightAnswer": "No",
+    "LeftPoints": 30,
+    "RightPoints": 5
+  },
+
+  {
+    "Question": "Do you like Math/Sciences or English/History/Arts?\", \"Math/Sciences\", \"English/History/Arts",
+    "LeftAnswer": "Math/Sciences",
+    "RightAnswer": "English/History/Arts",
+    "LeftPoints": 5,
+    "RightPoints": 5
+  },
+
+  {
+    "Question": "Do you procrastinate your work?",
+    "LeftAnswer": "Yes",
+    "RightAnswer": "No",
+    "LeftPoints": 30,
+    "RightPoints": 5
+  },
+
+  {
+    "Question": "How long do you spend on the computer everyday?",
+    "LeftAnswer": "Less than an hour",
+    "RightAnswer": "More than an hour",
+    "LeftPoints": 5,
+    "RightPoints": 40
+  },
+
+  {
+    "Question": "Do you like traveling?",
+    "LeftAnswer": "Yes",
+    "RightAnswer": "No",
+    "LeftPoints": 5,
+    "RightPoints": 25
+  },
+
+  {
+    "Question": "Do you clean your room?",
+    "LeftAnswer": "Yes",
+    "RightAnswer": "No",
+    "LeftPoints": 10,
+    "RightPoints": 20
+  },
+
+  {
+    "Question": "Do you like school?",
+    "LeftAnswer": "Yes",
+    "RightAnswer": "No",
+    "LeftPoints": 0,
+    "RightPoints": 30
+  },
+
+  {
+    "Question": "Do you prefer the Summer/Spring or Winter/Fall",
+    "LeftAnswer": "Summer/Spring",
+    "RightAnswer": "Winter/Fall",
+    "LeftPoints": 5,
+    "RightPoints": 5
+  }
+]
