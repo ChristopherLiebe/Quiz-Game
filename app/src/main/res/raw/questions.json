@@ -24,14 +24,6 @@
   },
 
   {
-    "Question": "Do you procrastinate your work?",
-    "LeftAnswer": "Yes",
-    "RightAnswer": "No",
-    "LeftPoints": 30,
-    "RightPoints": 5
-  },
-
-  {
     "Question": "Do you like Math/Sciences or English/History/Arts?\", \"Math/Sciences\", \"English/History/Arts",
     "LeftAnswer": "Math/Sciences",
     "RightAnswer": "English/History/Arts",
