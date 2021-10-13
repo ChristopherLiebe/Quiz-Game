@@ -1,0 +1,81 @@
+[
+  {
+    "Question": "Er du en introvert eller en udadvendt?",
+    "LeftAnswer": "Introvert",
+    "RightAnswer": "Udadvendt",
+    "LeftPoints": 20,
+    "RightPoints": 10
+  },
+
+  {
+    "Question": "Kan du lide varme eller kolde farver?",
+    "LeftAnswer": "Varme",
+    "RightAnswer": "Kolde",
+    "LeftPoints": 10,
+    "RightPoints": 20
+  },
+
+  {
+    "Question": "Er du en natugle eller en morgenugle?",
+    "LeftAnswer": "Natugle",
+    "RightAnswer": "Morgenugle",
+    "LeftPoints": 40,
+    "RightPoints": 5
+  },
+
+  {
+    "Question": "Kan du lide matematik/videnskab eller engelsk/historie/kunst?",
+    "LeftAnswer": "Mathematik/Videnskab",
+    "RightAnswer": "Engelsk/Historie/Kunst",
+    "LeftPoints": 5,
+    "RightPoints": 5
+  },
+
+  {
+    "Question": "Udskyder du dit arbejde?",
+    "LeftAnswer": "Yes",
+    "RightAnswer": "No",
+    "LeftPoints": 30,
+    "RightPoints": 5
+  },
+
+  {
+    "Question": "Hvor lang tid bruger du på computeren hver dag?",
+    "LeftAnswer": "Mindre end en time",
+    "RightAnswer": "Mere end en time",
+    "LeftPoints": 5,
+    "RightPoints": 40
+  },
+
+  {
+    "Question": "Kan du lide at rejse?",
+    "LeftAnswer": "Ja",
+    "RightAnswer": "Nej",
+    "LeftPoints": 5,
+    "RightPoints": 25
+  },
+
+  {
+    "Question": "Rengør du dit værelse?",
+    "LeftAnswer": "Ja",
+    "RightAnswer": "Nej",
+    "LeftPoints": 10,
+    "RightPoints": 20
+  },
+
+  {
+    "Question": "Kan du lide skole?",
+    "LeftAnswer": "Ja",
+    "RightAnswer": "Nej",
+    "LeftPoints": 0,
+    "RightPoints": 30
+  },
+
+  {
+    "Question": "Kan du lide sommer/forår eller vinter/efterår mest?",
+    "LeftAnswer": "Sommer/Forår",
+    "RightAnswer": "Vinter/Efterår",
+    "LeftPoints": 5,
+    "RightPoints": 5
+  }
+]

@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Quiz Game</string>
+    <string name="main_score">Score:</string>
+    <string name="main_personality_one">You are nowhere near being a gamer... Why are you taking this quiz?</string>
+    <string name="main_personality_two">You are a normal human being...</string>
+    <string name="main_personality_three">You game as a hobby...</string>
+    <string name="main_personality_four">You are an average gamer!</string>
+    <string name="main_personality_five">You game more than you sleep!</string>
+    <string name="main_personality_six">You are the gaming prodigy!</string>
+    <string name="main_questionNumber">Question #</string>
 </resources>

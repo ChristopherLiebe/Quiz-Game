@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz Game</string>
+    <string name="main_score">Point:</string>
+    <string name="main_personality_one">"Du er ikke i nærheden af at være en spiller ... Hvorfor tager du denne quiz? "</string>
+    <string name="main_personality_two">"Du er et normalt menneske ... "</string>
+    <string name="main_personality_three">"Du spiller som en hobby ... "</string>
+    <string name="main_personality_four">"Du er en gennemsnitlig spiller! "</string>
+    <string name="main_personality_five">"Du spiller mere end du sover! "</string>
+    <string name="main_personality_six">Du er et vidunderbarn til gaming!</string>
+    <string name="main_questionNumber">Spørgsmål #</string>
+</resources>
