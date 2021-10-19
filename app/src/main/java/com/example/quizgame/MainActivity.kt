@@ -1,11 +1,12 @@
 package com.example.quizgame
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View.GONE
 import android.widget.Button
+import android.widget.ProgressBar
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
@@ -14,15 +15,16 @@ class MainActivity : AppCompatActivity() {
     val TAG = "MainActivity"
 
     lateinit var appTitle : TextView
-    lateinit var questionNumber : TextView
     lateinit var question : TextView
     lateinit var leftButton : Button
     lateinit var rightButton : Button
+    lateinit var progressBar : ProgressBar
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         wireWidgets()
+        appTitle.text = getString(R.string.app_name)
 
         val inputStream = resources.openRawResource(R.raw.questions)
         val jsonText = inputStream.bufferedReader().use {
@@ -37,26 +39,29 @@ class MainActivity : AppCompatActivity() {
 
 
         val quiz = Quiz(questions)
+        progressBar.max = quiz.questions.size
 
         fun presentScore() {
             leftButton.visibility = GONE
             rightButton.visibility = GONE
+            progressBar.visibility = GONE
             if (quiz.score < 61) {
-                question.text = "@string/main_score"
+                question.text = getString(R.string.main_personality_one)
             } else if (quiz.score < 101) {
-                question.text = "You are a normal human being..."
+                question.text = getString(R.string.main_personality_two)
             } else if (quiz.score < 151) {
-                question.text = "You game as a hobby..."
+                question.text = getString(R.string.main_personality_three)
             } else if (quiz.score < 201) {
-                question.text = "You are an average gamer!"
+                question.text = getString(R.string.main_personality_four)
             } else if (quiz.score < 236) {
-                question.text = "You game more than you sleep!"
+                question.text = getString(R.string.main_personality_five)
             } else {
-                question.text = "You are the gaming prodigy!"
+                question.text = getString(R.string.main_personality_six)
             }
         }
 
         fun updateScreen() {
+            progressBar.progress = quiz.questionNumber
             if(quiz.questionNumber >= quiz.questions.size) {
                 presentScore()
             }
@@ -82,9 +87,9 @@ class MainActivity : AppCompatActivity() {
 
     fun wireWidgets() {
         appTitle = findViewById(R.id.appTitle)
-        questionNumber = findViewById(R.id.questionNumber)
         question = findViewById(R.id.question)
         leftButton = findViewById(R.id.buttonLeft)
         rightButton = findViewById(R.id.buttonRight)
+        progressBar = findViewById(R.id.main_progressBar)
     }
 }
